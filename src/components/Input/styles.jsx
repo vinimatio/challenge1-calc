@@ -9,7 +9,6 @@ export const InputContainer = styled.div`
     align-items: center;
     justify-content: flex-end;
     font-size: 24px;
-    font-family: 'Roboto';
     
 
     input {
@@ -22,8 +21,10 @@ export const InputContainer = styled.div`
         align-items: flex-end;
         padding: 0 10px;
         font-size: 24px;
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
         color: #FFFFFF;
+        font-weight: 600;
+        opacity: 1;
         text-align: right;
     }
 `

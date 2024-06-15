@@ -13,10 +13,10 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    width: 50%;
+    width: 300px;
     padding: .75rem;
     border-radius: 15px;
-    max-width: 300px;
+    
 `
 
 export const Row = styled.div`
