@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/challenge1-calc/static/js/main.6095b4bc.js",
+    "main.js": "/challenge1-calc/static/js/main.209a9297.js",
     "index.html": "/challenge1-calc/index.html",
-    "main.6095b4bc.js.map": "/challenge1-calc/static/js/main.6095b4bc.js.map"
+    "main.209a9297.js.map": "/challenge1-calc/static/js/main.209a9297.js.map"
   },
   "entrypoints": [
-    "static/js/main.6095b4bc.js"
+    "static/js/main.209a9297.js"
   ]
 }
