@@ -22,7 +22,6 @@ const App = () => {
 
 
   const handleSumNumbers = () => {
-
     if (firstNumber === '0') {
       setFirstNumber(String(currentNumber));
       setCurrentNumber('0')
@@ -97,7 +96,6 @@ const App = () => {
           break;
       }
     }
-
   }
 
   return (
