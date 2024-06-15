@@ -91,6 +91,7 @@ const App = () => {
           handleDivNumbers();
           break;
         default:
+          console.log('ERROR - operation not recognized');
           break;
       }
     }
@@ -122,11 +123,11 @@ const App = () => {
           <Button label="1" onClick={() => handleAddNumber('1')} />
           <Button label="2" onClick={() => handleAddNumber('2')} />
           <Button label="3" onClick={() => handleAddNumber('3')} />
-          <Button label="," onClick={() => handleAddNumber('.')} />         
+          <Button label="," onClick={() => handleAddNumber('.')} />
         </Row>
         <Row>
-        <Button label="0" onClick={() => handleAddNumber('0')} />
-        <Button label="=" onClick={handleResults} />
+          <Button label="0" onClick={() => handleAddNumber('0')} />
+          <Button label="=" onClick={handleResults} />
         </Row>
       </Content>
     </Container>
